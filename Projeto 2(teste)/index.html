@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestão de Energia</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Gestão de Energia</h1>
+        <nav>
+            <div class="menu-hamburger" id="menu-hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul id="nav-links" class="nav-links">
+                <li><a href="#cadastro-usuario" class="tab-link" data-tab="cadastro-usuario">Cadastro de Usuário</a></li>
+                <li><a href="#cadastro-residencia" class="tab-link" data-tab="cadastro-residencia">Cadastro de Residência</a></li>
+                <li><a href="#inventario" class="tab-link" data-tab="inventario">Gestão de Inventário</a></li>
+                <li><a href="#contratos" class="tab-link" data-tab="contratos">Gestão de Contratos</a></li>
+                <li><a href="#manutencao" class="tab-link" data-tab="manutencao">Manutenção Preventiva Remota</a></li>
+                <li><a href="#acessos" class="tab-link" data-tab="acessos">Acessos e Permissões</a></li>
+                <li><a href="#cadastro-operador" class="tab-link" data-tab="cadastro-operador">Cadastro de Operador</a></li>
+                <li><a href="#backup-dados" class="tab-link" data-tab="backup-dados">Segurança e Backup de Dados</a></li>
+                <li><a href="#integracao" class="tab-link" data-tab="integracao">Integração com Sistemas Externos</a></li>
+                <li><a href="#analise-desempenho" class="tab-link" data-tab="analise-desempenho">Análise de Desempenho</a></li>
+                <li><a href="#monitoramento-paineis" class="tab-link" data-tab="monitoramento-paineis">Monitoramento de Painéis</a></li>
+                <li><a href="#gestao-falhas" class="tab-link" data-tab="gestao-falhas">Gestão de Falhas</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="cadastro-usuario" class="tab-content">
+            <h2>Cadastro de Usuário</h2>
+            <!-- Conteúdo da seção Cadastro de Usuário -->
+        </section>
+        <section id="cadastro-residencia" class="tab-content">
+            <h2>Cadastro de Residência</h2>
+            <!-- Conteúdo da seção Cadastro de Residência -->
+        </section>
+        <section id="inventario" class="tab-content">
+            <h2>Gestão de Inventário</h2>
+            <!-- Conteúdo da seção Gestão de Inventário -->
+        </section>
+        <section id="contratos" class="tab-content">
+            <h2>Gestão de Contratos</h2>
+            <!-- Conteúdo da seção Gestão de Contratos -->
+        </section>
+        <section id="manutencao" class="tab-content">
+            <h2>Manutenção Preventiva Remota</h2>
+            <!-- Conteúdo da seção Manutenção Preventiva Remota -->
+        </section>
+        <section id="acessos" class="tab-content">
+            <h2>Acessos e Permissões</h2>
+            <!-- Conteúdo da seção Acessos e Permissões -->
+        </section>
+        <section id="cadastro-operador" class="tab-content">
+            <h2>Cadastro de Operador</h2>
+            <!-- Conteúdo da seção Cadastro de Operador -->
+        </section>
+        <section id="backup-dados" class="tab-content">
+            <h2>Segurança e Backup de Dados</h2>
+            <!-- Conteúdo da seção Segurança e Backup de Dados -->
+        </section>
+        <section id="integracao" class="tab-content">
+            <h2>Integração com Sistemas Externos</h2>
+            <!-- Conteúdo da seção Integração com Sistemas Externos -->
+        </section>
+        <section id="analise-desempenho" class="tab-content">
+            <h2>Análise de Desempenho</h2>
+            <label for="data-analise">Escolha a data:</label>
+            <input type="date" id="data-analise" name="data-analise">
+            <canvas id="grafico-desempenho"></canvas>
+            <div id="desempenho-container">
+                <!-- Dados de desempenho serão exibidos aqui -->
+            </div>
+        </section>
+        <section id="monitoramento-paineis" class="tab-content">
+            <h2>Monitoramento de Painéis</h2>
+            <!-- Conteúdo da seção Monitoramento de Painéis -->
+        </section>
+        <section id="gestao-falhas" class="tab-content">
+            <h2>Gestão de Falhas</h2>
+            <!-- Conteúdo da seção Gestão de Falhas -->
+        </section>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
